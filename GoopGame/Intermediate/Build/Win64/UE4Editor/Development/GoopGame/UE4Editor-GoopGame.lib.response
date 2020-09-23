@@ -7,10 +7,12 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\GoopGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SCharacter.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\GoopGame.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\GoopGameGameModeBase.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\GoopGame.init.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\GoopGameGameModeBase.gen.cpp.obj"
+"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SCharacter.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\Default.rc2.res"
 /OUT:"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_GoopGame
