@@ -1,0 +1,2 @@
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\Definitions.GoopGame.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\GoopGame.h

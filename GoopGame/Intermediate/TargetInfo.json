@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GoopGame",
+			"Path": "D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GoopGameEditor",
+			"Path": "D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

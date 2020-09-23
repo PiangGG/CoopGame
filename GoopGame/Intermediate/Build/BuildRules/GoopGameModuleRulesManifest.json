@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame\\GoopGame.Build.cs",
+		"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame.Target.cs",
+		"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}
