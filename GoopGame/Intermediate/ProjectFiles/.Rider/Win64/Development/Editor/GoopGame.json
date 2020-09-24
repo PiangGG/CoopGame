@@ -68,6 +68,38 @@
 			]
 		},
 		{
+			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLink.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderLink",
+				"RD"
+			]
+		},
+		{
+			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLoggingExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderLoggingExtension",
+				"RD"
+			]
+		},
+		{
+			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderBlueprintExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderBlueprintExtension",
+				"RD"
+			]
+		},
+		{
+			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderGameControlExtension.dll",
+			"Type": "DynamicLinkLibrary",
+			"Modules": [
+				"RiderGameControlExtension",
+				"RD"
+			]
+		},
+		{
 			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Binaries\\Win64\\UE4Editor-Paper2D.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
@@ -191,38 +223,6 @@
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"PlasticSourceControl"
-			]
-		},
-		{
-			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLink.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"RiderLink",
-				"RD"
-			]
-		},
-		{
-			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderLoggingExtension.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"RiderLoggingExtension",
-				"RD"
-			]
-		},
-		{
-			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderBlueprintExtension.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"RiderBlueprintExtension",
-				"RD"
-			]
-		},
-		{
-			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Binaries\\Win64\\UE4Editor-RiderGameControlExtension.dll",
-			"Type": "DynamicLinkLibrary",
-			"Modules": [
-				"RiderGameControlExtension",
-				"RD"
 			]
 		},
 		{
@@ -4061,6 +4061,197 @@
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\Launch"
 		},
+		"RiderLink": 
+		{
+			"Name": "RiderLink",
+			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
+			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicDependencyModules": [
+				"Core",
+				"RD"
+			],
+			"PublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorModel",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorRoot",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\UE4Library"
+			],
+			"PrivateIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERLINK_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLink",
+			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
+		},
+		"RD": 
+		{
+			"Name": "RD",
+			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD",
+			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\lifetime",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\reactive",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\std",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\types",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\util",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\reactive\\base",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\base",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\ext",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\impl",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\intern",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\scheduler",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\serialization",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\task",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\util",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\wire",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\scheduler\\base",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\clsocket",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\mpark",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\nonstd",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\optional",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\tsl",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\clsocket\\src",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\optional\\tl"
+			],
+			"PublicAdditionalLibraries": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_framework_cpp.lib",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\clsocket.lib",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_core_cpp.lib"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"PublicDefinitions": [
+				"_WIN32",
+				"_WINSOCK_DEPRECATED_NO_WARNINGS"
+			],
+			"ShouldAddLegacyPublicIncludePaths": false
+		},
+		"RiderLoggingExtension": 
+		{
+			"Name": "RiderLoggingExtension",
+			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension",
+			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"RD",
+				"RiderLink",
+				"RiderBlueprintExtension"
+			],
+			"PublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension"
+			],
+			"PrivateIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERLOGGINGEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLoggingExtension",
+			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
+		},
+		"RiderBlueprintExtension": 
+		{
+			"Name": "RiderBlueprintExtension",
+			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension",
+			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"SlateCore",
+				"RD",
+				"RiderLink",
+				"Slate",
+				"AssetRegistry",
+				"MessagingCommon",
+				"UnrealEd",
+				"UnrealEdMessages",
+				"Engine",
+				"CoreUObject"
+			],
+			"PublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension"
+			],
+			"PrivateIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERBLUEPRINTEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderBlueprintExtension",
+			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
+		"RiderGameControlExtension": 
+		{
+			"Name": "RiderGameControlExtension",
+			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension",
+			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
+			"PCHUsage": "UseExplicitOrSharedPCHs",
+			"PrivateDependencyModules": [
+				"Core",
+				"RD",
+				"RiderLink",
+				"HeadMountedDisplay",
+				"LevelEditor",
+				"UnrealEd",
+				"Slate",
+				"CoreUObject",
+				"Engine"
+			],
+			"PublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Public"
+			],
+			"LegacyPublicIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension"
+			],
+			"PrivateIncludePaths": [
+				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Private"
+			],
+			"PublicDelayLoadDLLs": [
+				"d3d12.dll"
+			],
+			"ApiDefinitions": [
+				"RIDERGAMECONTROLEXTENSION_API="
+			],
+			"ShouldAddLegacyPublicIncludePaths": false,
+			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderGameControlExtension",
+			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
+		},
 		"Paper2D": 
 		{
 			"Name": "Paper2D",
@@ -4755,197 +4946,6 @@
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\PlasticSourceControl\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\PlasticSourceControl",
-			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"RiderLink": 
-		{
-			"Name": "RiderLink",
-			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
-			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicDependencyModules": [
-				"Core",
-				"RD"
-			],
-			"PublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorModel",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\RdEditorRoot",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Public\\RdEditorProtocol\\UE4Library"
-			],
-			"PrivateIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"RIDERLINK_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLink",
-			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
-		},
-		"RD": 
-		{
-			"Name": "RD",
-			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD",
-			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\lifetime",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\reactive",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\std",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\types",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\util",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_core_cpp\\reactive\\base",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\base",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\ext",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\impl",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\intern",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\scheduler",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\serialization",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\task",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\util",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\wire",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\rd_framework_cpp\\scheduler\\base",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\clsocket",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\mpark",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\nonstd",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\optional",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\tsl",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\clsocket\\src",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\include\\thirdparty\\optional\\tl"
-			],
-			"PublicAdditionalLibraries": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_framework_cpp.lib",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\clsocket.lib",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RD\\win-vs19\\libs\\Win\\x64\\Release\\rd_core_cpp.lib"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"PublicDefinitions": [
-				"_WIN32",
-				"_WINSOCK_DEPRECATED_NO_WARNINGS"
-			],
-			"ShouldAddLegacyPublicIncludePaths": false
-		},
-		"RiderLoggingExtension": 
-		{
-			"Name": "RiderLoggingExtension",
-			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension",
-			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\RiderLoggingExtension.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PrivateDependencyModules": [
-				"Core",
-				"RD",
-				"RiderLink",
-				"RiderBlueprintExtension"
-			],
-			"PublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension"
-			],
-			"PrivateIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderLoggingExtension\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"RIDERLOGGINGEXTENSION_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderLoggingExtension",
-			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Runtime\\Core\\Public\\CoreSharedPCH.h"
-		},
-		"RiderBlueprintExtension": 
-		{
-			"Name": "RiderBlueprintExtension",
-			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension",
-			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\RiderBlueprintExtension.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PrivateDependencyModules": [
-				"Core",
-				"SlateCore",
-				"RD",
-				"RiderLink",
-				"Slate",
-				"AssetRegistry",
-				"MessagingCommon",
-				"UnrealEd",
-				"UnrealEdMessages",
-				"Engine",
-				"CoreUObject"
-			],
-			"PublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension"
-			],
-			"PrivateIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprintExtension\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"RIDERBLUEPRINTEXTENSION_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderBlueprintExtension",
-			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
-		},
-		"RiderGameControlExtension": 
-		{
-			"Name": "RiderGameControlExtension",
-			"Directory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension",
-			"Rules": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\RiderGameControlExtension.Build.cs",
-			"PCHUsage": "UseExplicitOrSharedPCHs",
-			"PrivateDependencyModules": [
-				"Core",
-				"RD",
-				"RiderLink",
-				"HeadMountedDisplay",
-				"LevelEditor",
-				"UnrealEd",
-				"Slate",
-				"CoreUObject",
-				"Engine"
-			],
-			"PublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source",
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Public"
-			],
-			"LegacyPublicIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension"
-			],
-			"PrivateIncludePaths": [
-				"D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControlExtension\\Private"
-			],
-			"PublicDelayLoadDLLs": [
-				"d3d12.dll"
-			],
-			"ApiDefinitions": [
-				"RIDERGAMECONTROLEXTENSION_API="
-			],
-			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\RiderGameControlExtension",
 			"SharedPCHFilePath": "D:\\component application\\unreal\\UE_4.25\\Engine\\Source\\Editor\\UnrealEd\\Public\\UnrealEdSharedPCH.h"
 		},
 		"RiderSourceCodeAccess": 
@@ -13108,11 +13108,18 @@
 				"Engine",
 				"InputCore"
 			],
+			"PrivateDependencyModules": [
+				"Engine"
+			],
 			"PublicIncludePaths": [
-				"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source"
+				"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source",
+				"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame\\Public"
 			],
 			"LegacyPublicIncludePaths": [
 				"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame"
+			],
+			"PrivateIncludePaths": [
+				"D:\\Code\\unreal\\CoopGame\\GoopGame\\Source\\GoopGame\\Private"
 			],
 			"PublicDelayLoadDLLs": [
 				"d3d12.dll"
@@ -29295,6 +29302,17 @@
 	},
 	"Plugins": 
 	{
+		"RiderLink": 
+		{
+			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\RiderLink.uplugin",
+			"Type": "Engine",
+			"Modules": [
+				"RiderLink",
+				"RiderLoggingExtension",
+				"RiderBlueprintExtension",
+				"RiderGameControlExtension"
+			]
+		},
 		"Paper2D": 
 		{
 			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\2D\\Paper2D\\Paper2D.uplugin",
@@ -29406,17 +29424,6 @@
 			"Type": "Engine",
 			"Modules": [
 				"PlasticSourceControl"
-			]
-		},
-		"RiderLink": 
-		{
-			"File": "D:\\component application\\unreal\\UE_4.25\\Engine\\Plugins\\Developer\\RiderLink\\RiderLink.uplugin",
-			"Type": "Engine",
-			"Modules": [
-				"RiderLink",
-				"RiderLoggingExtension",
-				"RiderBlueprintExtension",
-				"RiderGameControlExtension"
 			]
 		},
 		"RiderSourceCodeAccess": 

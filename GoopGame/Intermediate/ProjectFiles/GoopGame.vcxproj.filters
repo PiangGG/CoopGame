@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GoopGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EB90E5E9-D012-4A96-9D2A-5142A965B5D2}</UniqueIdentifier>
+      <UniqueIdentifier>{354B7739-D710-4157-8FD5-56F9B23D7D49}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GoopGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2B3100FD-51A3-482D-AC94-67826522F39D}</UniqueIdentifier>
+      <UniqueIdentifier>{B60DC46A-83BA-4755-9124-A6E0CA70D386}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GoopGame">
-      <UniqueIdentifier>{27A97BEE-D5B7-47A6-8E8B-B904EBD9DF25}</UniqueIdentifier>
+      <UniqueIdentifier>{692394A1-7EC5-46B0-AE35-E32323DD8C15}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GoopGame\GoopGame.Build.cs">
       <Filter>Source\GoopGame</Filter>
@@ -42,15 +45,27 @@
       <Filter>Source\GoopGame</Filter>
     </ClInclude>
     <Filter Include="Source\GoopGame\Private">
-      <UniqueIdentifier>{8E777E83-50DA-48C5-956D-579388763439}</UniqueIdentifier>
+      <UniqueIdentifier>{C20FC700-CECF-471F-8A80-7A603718982A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GoopGame\Private\SCharacter.cpp">
       <Filter>Source\GoopGame\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GoopGame\Private\SProjectileWeapon.cpp">
+      <Filter>Source\GoopGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GoopGame\Private\SWeapon.cpp">
+      <Filter>Source\GoopGame\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GoopGame\Public">
-      <UniqueIdentifier>{E469A8B5-1216-4E98-9636-BD3F3CCF4632}</UniqueIdentifier>
+      <UniqueIdentifier>{091FB031-F4AC-48C2-ACBE-26C5FD55742A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GoopGame\Public\SCharacter.h">
+      <Filter>Source\GoopGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GoopGame\Public\SProjectileWeapon.h">
+      <Filter>Source\GoopGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GoopGame\Public\SWeapon.h">
       <Filter>Source\GoopGame\Public</Filter>
     </ClInclude>
   </ItemGroup>
