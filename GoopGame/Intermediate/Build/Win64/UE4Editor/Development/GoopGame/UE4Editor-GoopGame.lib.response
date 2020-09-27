@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\GoopGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\STrackBot.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SHealthComponent.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SCharacter.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SProjectileWeapon.cpp.obj"
@@ -20,6 +21,7 @@
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SHealthComponent.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SProjectileWeapon.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\STong.gen.cpp.obj"
+"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\STrackBot.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\SWeapon.gen.cpp.obj"
 "D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\Default.rc2.res"
 /OUT:"D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame.lib"
