@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GoopGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D5D64F77-F61D-4CE8-AB8B-E0BDD888A27B}</UniqueIdentifier>
+      <UniqueIdentifier>{79918EED-88D8-434A-BAD6-5F7A14369286}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GoopGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3F729E3C-906A-467C-B929-2D1E09EC1072}</UniqueIdentifier>
+      <UniqueIdentifier>{73B23A7B-3297-4537-8E9B-901186FB4041}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GoopGame">
-      <UniqueIdentifier>{8F6F06E2-BDF3-417F-A1B3-872E738F45BA}</UniqueIdentifier>
+      <UniqueIdentifier>{82D54009-A8AB-480B-BB64-FFB5EF737ADE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GoopGame\GoopGame.Build.cs">
       <Filter>Source\GoopGame</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GoopGame</Filter>
     </ClInclude>
     <Filter Include="Source\GoopGame\AI">
-      <UniqueIdentifier>{31009539-A5DF-465D-89AB-991066890F40}</UniqueIdentifier>
+      <UniqueIdentifier>{A59BBB70-F86B-4E47-BA84-11AAC21F315E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GoopGame\AI\STrackBot.cpp">
       <Filter>Source\GoopGame\AI</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\GoopGame\AI</Filter>
     </ClInclude>
     <Filter Include="Source\GoopGame\Component">
-      <UniqueIdentifier>{80693CEE-FCB6-4FF9-B484-9E2B3588ECEA}</UniqueIdentifier>
+      <UniqueIdentifier>{469317B3-9039-4C59-9D20-BEA13F36D43E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GoopGame\Component\SHealthComponent.cpp">
       <Filter>Source\GoopGame\Component</Filter>
@@ -63,9 +63,15 @@
       <Filter>Source\GoopGame\Component</Filter>
     </ClInclude>
     <Filter Include="Source\GoopGame\Private">
-      <UniqueIdentifier>{0F52A10B-E44A-48B9-8EA2-46B917A08A9B}</UniqueIdentifier>
+      <UniqueIdentifier>{BECDFA39-9C81-47F9-BD4F-A74E624BB686}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GoopGame\Private\SCharacter.cpp">
+      <Filter>Source\GoopGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GoopGame\Private\SPickupActor.cpp">
+      <Filter>Source\GoopGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GoopGame\Private\SPowerupActor.cpp">
       <Filter>Source\GoopGame\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GoopGame\Private\SProjectileWeapon.cpp">
@@ -78,9 +84,15 @@
       <Filter>Source\GoopGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GoopGame\Public">
-      <UniqueIdentifier>{B94038D5-CDFF-4A98-90EF-879A69DFC63F}</UniqueIdentifier>
+      <UniqueIdentifier>{CBB8A357-C1CD-45C9-89E7-A0B9C524A7F0}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GoopGame\Public\SCharacter.h">
+      <Filter>Source\GoopGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GoopGame\Public\SPickupActor.h">
+      <Filter>Source\GoopGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GoopGame\Public\SPowerupActor.h">
       <Filter>Source\GoopGame\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GoopGame\Public\SProjectileWeapon.h">
