@@ -13110,9 +13110,11 @@
 				"CoreUObject",
 				"Engine",
 				"InputCore",
-				"NavigationSystem"
+				"NavigationSystem",
+				"AIModule"
 			],
 			"PrivateDependencyModules": [
+				"OnlineSubsystem",
 				"Engine"
 			],
 			"PublicIncludePaths": [
