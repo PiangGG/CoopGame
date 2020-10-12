@@ -1,0 +1,76 @@
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\Definitions.GoopGame.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\AI\STrackBot.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame/Component/SHealthComponent.h
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Inc\GoopGame\SHealthComponent.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/SoundCue.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/SoundNode.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundNode.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundCue.generated.h
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Inc\GoopGame\STrackBot.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationPath.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationPath.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystem.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctree.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationOctreeController.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public\NavigationDirtyAreasController.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Public\UnrealEdMisc.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Editor.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/EditorEngine.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/Transactor.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Serialization/ArchiveSerializedPropertyChain.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\Transactor.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Settings/LevelEditorViewportSettings.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Viewports.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Classes\Editor/UnrealEdTypes.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\UnrealEdTypes.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\LevelEditorViewportSettings.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatform.h
+D:\component application\unreal\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetDevice.h
+D:\component application\unreal\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/TargetDeviceId.h
+D:\component application\unreal\UE_4.25\Engine\Source\Developer\TargetPlatform\Public\Interfaces/ITargetPlatformManagerModule.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Public\PlayInEditorDataTypes.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\PlayInEditorDataTypes.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\EditorSubsystem\Public\EditorSubsystem.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem\EditorSubsystem.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\EditorEngine.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Editor\UnrealEd\Public\Subsystems/ImportSubsystem.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ImportSubsystem.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\Public\SCharacter.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\Public\SWeapon.h
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Inc\GoopGame\SWeapon.generated.h
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Inc\GoopGame\SCharacter.generated.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Public\Net/UnrealNetwork.h

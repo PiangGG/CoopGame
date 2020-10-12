@@ -1,0 +1,1474 @@
+﻿Log file open, 09/30/20 11:16:35
+LogInit: Display: Running engine for game: GoopGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.500241
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/component application/unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:997][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.35:999][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-03.16.35:999][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.30-03.16.36:000][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-03.16.36:000][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.30-03.16.36:000][  0]LogHAL: Display: Platform has ~ 32 GB [34186383360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.30-03.16.36:000][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.30-03.16.36:000][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.30-03.16.36:001][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.30-03.16.36:001][  0]LogInit: Computer: DESKTOP-G0SN44A
+[2020.09.30-03.16.36:001][  0]LogInit: User: piang
+[2020.09.30-03.16.36:001][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.09.30-03.16.36:001][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.30-03.16.36:001][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.09.30-03.16.36:001][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.30-03.16.36:001][  0]LogMemory: Process Physical Memory: 117.40 MB used, 117.40 MB peak
+[2020.09.30-03.16.36:001][  0]LogMemory: Process Virtual Memory: 103.36 MB used, 103.36 MB peak
+[2020.09.30-03.16.36:001][  0]LogMemory: Physical Memory: 11009.04 MB used,  21593.63 MB free, 32602.68 MB total
+[2020.09.30-03.16.36:001][  0]LogMemory: Virtual Memory: 5192.76 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.09.30-03.16.36:007][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.30-03.16.36:037][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.30-03.16.36:037][  0]LogInit: Using OS detected language (zh-CN).
+[2020.09.30-03.16.36:037][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.09.30-03.16.36:039][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.09.30-03.16.36:108][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.09.30-03.16.36:148][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.30-03.16.36:173][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.30-03.16.36:173][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.30-03.16.36:269][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-03.16.36:269][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.30-03.16.36:269][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.30-03.16.36:269][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.30-03.16.36:349][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (Feature Level 11_0)
+[2020.09.30-03.16.36:349][  0]LogD3D11RHI:       8010/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.30-03.16.36:367][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2020.09.30-03.16.36:367][  0]LogD3D11RHI:       128/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.30-03.16.36:368][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.30-03.16.36:368][  0]LogD3D11RHI:       0/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.30-03.16.36:368][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.30-03.16.36:381][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.30-03.16.36:381][  0]LogD3D11RHI:     GPU DeviceId: 0x1ed3 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.30-03.16.36:381][  0]LogWindows: EnumDisplayDevices:
+[2020.09.30-03.16.36:381][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2020.09.30-03.16.36:381][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.30-03.16.36:382][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.30-03.16.36:383][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.30-03.16.36:383][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.30-03.16.36:383][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.30-03.16.36:384][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.30-03.16.36:384][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.30-03.16.36:384][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Super with Max-Q Design
+[2020.09.30-03.16.36:384][  0]LogD3D11RHI:   Driver Version: 451.91 (internal:27.21.14.5191, unified:451.91)
+[2020.09.30-03.16.36:384][  0]LogD3D11RHI:      Driver Date: 8-2-2020
+[2020.09.30-03.16.36:384][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.09.30-03.16.36:435][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.30-03.16.36:437][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.30-03.16.36:437][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.30-03.16.36:437][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.30-03.16.36:453][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.30-03.16.36:691][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.30-03.16.36:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.30-03.16.36:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.30-03.16.36:725][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.30-03.16.36:733][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.30-03.16.36:740][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.30-03.16.36:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.30-03.16.36:754][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.30-03.16.36:762][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.30-03.16.36:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.30-03.16.36:776][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.30-03.16.36:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.30-03.16.36:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.30-03.16.36:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.30-03.16.36:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.30-03.16.36:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.30-03.16.36:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.30-03.16.36:829][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.30-03.16.36:836][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.30-03.16.36:836][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.30-03.16.36:843][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.30-03.16.36:895][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Code/unreal/CoopGame/GoopGame/Intermediate/Shaders/WorkingDirectory/11700/).
+[2020.09.30-03.16.36:896][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/piang/AppData/Local/Temp/UnrealShaderWorkingDir/EA7AF69540FBB16978BAE0AC0B501179/'.
+[2020.09.30-03.16.36:896][  0]LogXGEController: Cleaning working directory: C:/Users/piang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.30-03.16.36:896][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.30-03.16.36:896][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.30-03.16.36:896][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.30-03.16.37:485][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: Loaded boot cache 0.03s 75MB C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Code/unreal/CoopGame/GoopGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Code/unreal/CoopGame/GoopGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-03.16.37:520][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.30-03.16.37:528][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.30-03.16.37:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.30-03.16.37:528][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.30-03.16.37:529][  0]LogDerivedDataCache: Using Local data cache path C:/Users/piang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.30-03.16.37:529][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.30-03.16.37:529][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.30-03.16.37:567][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.30-03.16.37:567][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.30-03.16.37:589][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
+[2020.09.30-03.16.37:756][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.30-03.16.37:848][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.30-03.16.37:848][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.30-03.16.37:848][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.30-03.16.37:848][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.30-03.16.37:848][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.30-03.16.37:860][  0]LogNetVersion: GoopGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 720496033)
+[2020.09.30-03.16.38:170][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017C88FE1E80), frame # 0
+[2020.09.30-03.16.38:170][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C88F642C0), frame # 0
+[2020.09.30-03.16.38:171][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C88F85E00), frame # 0
+[2020.09.30-03.16.38:224][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.049843 seconds
+[2020.09.30-03.16.38:229][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.30-03.16.38:229][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.30-03.16.38:229][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.30-03.16.38:549][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.30-03.16.38:553][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.30-03.16.38:629][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.38:629][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.38:632][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.38:636][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.38:648][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.38:894][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.30-03.16.38:914][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-03.16.38:914][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.30-03.16.38:959][  0]LogOcInput: OculusInput pre-init called
+[2020.09.30-03.16.38:967][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.30-03.16.38:967][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.30-03.16.39:021][  0]LogEngine: Initializing Engine...
+[2020.09.30-03.16.39:022][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.30-03.16.39:022][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.30-03.16.39:022][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.30-03.16.39:111][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.30-03.16.39:117][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.30-03.16.39:117][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C93ABFC00), frame # 0
+[2020.09.30-03.16.39:117][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C93AEF4C0), frame # 0
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-03.16.39:130][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-03.16.39:130][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-03.16.39:130][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-03.16.39:147][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-03.16.39:147][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-03.16.39:383][  0]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2020.09.30-03.16.39:385][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-03.16.39:386][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-03.16.39:386][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-03.16.39:387][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-03.16.39:388][  0]LogInit: FAudioDevice initialized.
+[2020.09.30-03.16.39:388][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.30-03.16.39:429][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.30-03.16.39:429][  0]LogInit: Texture streaming: Enabled
+[2020.09.30-03.16.39:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.30-03.16.39:448][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5F877ABC-4B7D-E844-9C6C-FE8F3C35A396}
+[2020.09.30-03.16.39:448][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.30-03.16.39:450][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.30-03.16.39:489][  0]LogInit: Transaction tracking system initialized
+[2020.09.30-03.16.39:511][  0]BlueprintLog: New page: 编辑器加载
+[2020.09.30-03.16.39:572][  0]LocalizationService: 本地化服务已禁用
+[2020.09.30-03.16.39:689][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.30-03.16.39:689][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.30-03.16.39:804][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/' took 0.00s
+[2020.09.30-03.16.39:961][  0]SourceControl: 源码管理已禁用
+[2020.09.30-03.16.39:961][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.287
+[2020.09.30-03.16.39:962][  0]Cmd: MAP LOAD FILE="../../../../../../Code/unreal/CoopGame/GoopGame/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.30-03.16.39:962][  0]LightingResults: New page: 光照构建
+[2020.09.30-03.16.39:962][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-03.16.39:962][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-03.16.39:962][  0]MapCheck: New page: 地图检测
+[2020.09.30-03.16.39:963][  0]LightingResults: New page: 光照构建
+[2020.09.30-03.16.39:974][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017C93ABFC00), frame # 0
+[2020.09.30-03.16.39:974][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C93AEF4C0), frame # 0
+[2020.09.30-03.16.39:975][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.09.30-03.16.40:271][  0]LogAIModule: Creating AISystem for world NewMap
+[2020.09.30-03.16.40:271][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C9B671400), frame # 0
+[2020.09.30-03.16.40:271][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C828FE700), frame # 0
+[2020.09.30-03.16.40:276][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.30-03.16.40:288][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.09.30-03.16.40:288][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.30-03.16.40:288][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.076毫秒。
+[2020.09.30-03.16.40:288][  0]LogFileHelpers: Loading map 'NewMap' took 0.327
+[2020.09.30-03.16.40:290][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.615
+[2020.09.30-03.16.40:337][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2020.09.30-03.16.40:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-03.16.40:392][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-03.16.40:398][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-03.16.40:407][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-03.16.40:412][  0]LogCollectionManager: Loaded 0 collections in 0.000559 seconds
+[2020.09.30-03.16.40:424][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Saved/Collections/' took 0.00s
+[2020.09.30-03.16.40:424][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/Developers/piang/Collections/' took 0.00s
+[2020.09.30-03.16.40:424][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/Collections/' took 0.00s
+[2020.09.30-03.16.40:424][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3443 classes and 828 folders.
+[2020.09.30-03.16.40:426][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.09.30-03.16.40:458][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.30-03.16.40:460][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.30-03.16.40:557][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.30-03.16.40:560][  0]LogSlate: Took 0.002035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.30-03.16.40:560][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.30-03.16.40:562][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.30-03.16.40:615][  0]LogRenderer: Reallocating scene render targets to support 1208x604 Format 10 NumSamples 1 (Frame:1).
+[2020.09.30-03.16.40:685][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.30-03.16.40:685][  0]LogLoad: (Engine Initialization) Total time: 6.01 seconds
+[2020.09.30-03.16.40:685][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.30-03.16.40:729][  0]LogAssetRegistry: Asset discovery search completed in 3.1414 seconds
+[2020.09.30-03.16.40:735][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.09.30-03.16.40:736][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.30-03.16.40:764][  0]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.30-03.16.40:882][  3]LogActor: Warning: BP_Rifle_C /Engine/Transient.World_2:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.30-03.16.44:917][245]LogTemp: Repeating last play command: 选中的视口
+[2020.09.30-03.16.44:929][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.30-03.16.44:930][245]PIE: New page: PIE会话：NewMap（2020年9月30日 下午7:16:44）
+[2020.09.30-03.16.44:931][245]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.30-03.16.44:932][245]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.30-03.16.44:932][245]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2020.09.30-03.16.44:936][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003752s)
+[2020.09.30-03.16.44:937][245]LogAIModule: Creating AISystem for world NewMap
+[2020.09.30-03.16.44:937][245]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CB891D200), frame # 245
+[2020.09.30-03.16.44:937][245]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C9BEABC40), frame # 245
+[2020.09.30-03.16.44:937][245]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2020.09.30-03.16.44:937][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.004793s)
+[2020.09.30-03.16.44:949][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.09.30-03.16.44:951][245]LogLoad: Game class is 'BP_GameMode_C'
+[2020.09.30-03.16.44:953][245]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2020.09.30-11.16.44
+[2020.09.30-03.16.44:954][245]LogWorld: Bringing up level for play took: 0.001589
+[2020.09.30-03.16.44:954][245]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.09.30-03.16.44:954][245]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.09.30-03.16.44:954][245]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.09.30-03.16.44:954][245]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2020.09.30-03.16.44:954][245]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.09.30-03.16.44:954][245]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2020.09.30-03.16.44:955][245]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.30-03.16.44:955][245]PIE: 登陆的服务器
+[2020.09.30-03.16.44:955][245]PIE: PIE总开始时间：0.027秒。
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.30-03.16.44:956][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.30-03.16.44:956][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.30-03.16.44:957][245]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.30-03.16.44:957][245]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.30-03.16.44:965][245]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.30-03.16.44:965][245]LogAudioMixer: Display: 1: FrontRight
+[2020.09.30-03.16.44:998][245]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2020.09.30-03.16.44:998][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.30-03.16.44:998][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.30-03.16.44:998][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.30-03.16.44:998][245]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.30-03.16.45:008][245]LogInit: FAudioDevice initialized.
+[2020.09.30-03.16.45:015][245]LogNet: Browse: 127.0.0.1:17777//Game/Maps/NewMap
+[2020.09.30-03.16.45:015][245]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.09.30-03.16.45:015][245]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2020.09.30-03.16.45:015][245]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.09.30-03.16.45:015][245]LogNet: Game client on port 17777, rate 10000
+[2020.09.30-03.16.45:015][245]PIE: 已登陆客户端
+[2020.09.30-03.16.45:016][245]PIE: PIE总开始时间：0.088秒。
+[2020.09.30-03.16.45:018][245]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.09.30-03.16.45:054][247]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.46:037][306]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62303
+[2020.09.30-03.16.46:037][306]LogHandshake: SendConnectChallenge. Timestamp: 1.137303, Cookie: 211040042103134127039222172203161189119172138228253240117127
+[2020.09.30-03.16.46:038][306]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.46:039][306]LogHandshake: SendChallengeResponse. Timestamp: 1.137303, Cookie: 211040042103134127039222172203161189119172138228253240117127
+[2020.09.30-03.16.46:054][307]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62303
+[2020.09.30-03.16.46:054][307]LogHandshake: SendChallengeAck. InCookie: 211040042103134127039222172203161189119172138228253240117127
+[2020.09.30-03.16.46:054][307]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62303
+[2020.09.30-03.16.46:055][307]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.09.30-03.16.46:055][307]LogNet: NotifyAcceptedConnection: Name: NewMap, TimeStamp: 09/30/20 11:16:46, [UNetConnection] RemoteAddr: 127.0.0.1:62303, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.09.30-03.16.46:055][307]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62303, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.09.30-03.16.46:056][307]LogNetVersion: GoopGame 1.0.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1944338904)
+[2020.09.30-03.16.46:056][307]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.09.30-03.16.46:071][308]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_NewMap.NewMap: Accepted
+[2020.09.30-03.16.46:071][308]LogNet: Remote platform little endian=1
+[2020.09.30-03.16.46:071][308]LogNet: This platform little endian=1
+[2020.09.30-03.16.46:072][308]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.46:073][308]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.09.30-03.16.46:088][309]LogNet: Login request: ?Name=DESKTOP-G0SN44A-BB293B4E4CDC7337F4A4AD86B3F94813 userId: NULL:DESKTOP-G0SN44A-BB293B4E4CDC7337F4A4AD86B3F94813 platform: NULL
+[2020.09.30-03.16.46:088][309]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_NewMap, Game: /Game/Blueprints/BP_GameMode.BP_GameMode_C)
+[2020.09.30-03.16.46:088][309]LogLoad: LoadMap: 127.0.0.1:17777//Game/Maps/UEDPIE_0_NewMap?game=/Game/Blueprints/BP_GameMode.BP_GameMode_C
+[2020.09.30-03.16.46:088][309]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2020.09.30-03.16.46:088][309]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-03.16.46:088][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.30-03.16.46:099][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.30-03.16.46:104][309]LogAIModule: Creating AISystem for world NewMap
+[2020.09.30-03.16.46:105][309]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CB870B000), frame # 309
+[2020.09.30-03.16.46:105][309]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C9BD74400), frame # 309
+[2020.09.30-03.16.46:107][309]LogWorld: Bringing World /Game/Maps/UEDPIE_1_NewMap.NewMap up for play (max tick rate 60) at 2020.09.30-11.16.46
+[2020.09.30-03.16.46:107][309]LogWorld: Bringing up level for play took: 0.001026
+[2020.09.30-03.16.46:107][309]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.09.30-03.16.46:107][309]LogLoad: Took 0.019015 seconds to LoadMap(/Game/Maps/UEDPIE_0_NewMap)
+[2020.09.30-03.16.46:107][309]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2020.09.30-03.16.46:111][310]LogNet: Client netspeed is 10000
+[2020.09.30-03.16.46:111][310]LogNet: Join request: /Game/Maps/NewMap?Name=DESKTOP-G0SN44A-BB293B4E4CDC7337F4A4AD86B3F94813?SplitscreenCount=1
+[2020.09.30-03.16.46:111][310]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.09.30-03.16.46:113][310]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.30-03.16.46:113][310]LogNet: Join succeeded: DESKTOP-G0SN44A-BB29
+[2020.09.30-03.16.46:279][320]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.30-03.16.46:296][321]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.09.30-03.16.46:379][326]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_1_NewMap.NewMap:PersistentLevel.BP_Rifle_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.30-03.16.47:062][367]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.47:229][377]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.47:462][391]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.47:713][406]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.47:962][421]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.48:062][427]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.48:212][436]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.48:212][436]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_0.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.48:212][436]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_0.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.48:462][451]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.48:712][466]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.48:963][481]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.49:062][487]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.49:095][489]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.49:212][496]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.49:462][511]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.49:713][526]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.49:962][541]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.50:079][548]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.50:196][555]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_0
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01AF
+[2020.09.30-03.16.50:196][555]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.50:196][555]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_0
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01DE
+[2020.09.30-03.16.50:196][555]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.50:196][555]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_0
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01F3
+[2020.09.30-03.16.50:196][555]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.50:213][556]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_0
+[2020.09.30-03.16.51:078][608]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.52:079][668]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.53:079][728]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.53:796][771]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.53:813][772]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.54:029][785]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.54:045][786]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.54:080][788]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.54:116][790]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.54:279][800]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.54:296][801]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.54:529][815]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.54:545][816]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.54:780][830]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.54:781][830]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_8.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.54:781][830]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_8.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.54:796][831]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.54:796][831]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_2.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.54:796][831]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_2.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.55:029][845]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.55:046][846]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.55:096][849]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.55:279][860]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.55:297][861]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.55:297][861]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.55:529][875]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.55:530][875]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.55:547][876]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.55:779][890]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.55:779][890]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.55:796][891]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.56:029][905]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.56:029][905]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.56:046][906]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.56:096][909]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.56:280][920]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.56:280][920]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.56:280][920]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_1.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.56:280][920]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_1.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.56:296][921]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.56:529][935]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.56:530][935]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.56:546][936]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.56:729][947]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01AF
+[2020.09.30-03.16.56:729][947]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.56:729][947]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01DE
+[2020.09.30-03.16.56:729][947]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.56:730][947]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01F3
+[2020.09.30-03.16.56:730][947]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.16.56:779][950]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_8
+[2020.09.30-03.16.56:779][950]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.56:797][951]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_2
+[2020.09.30-03.16.57:030][965]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.57:096][969]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.57:279][980]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.57:530][995]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.57:780][ 10]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.58:029][ 25]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.58:079][ 28]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.58:096][ 29]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.58:279][ 40]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_1
+[2020.09.30-03.16.58:312][ 42]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.58:563][ 57]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.58:595][ 59]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.16.58:814][ 72]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.58:829][ 73]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.16.59:063][ 87]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.59:063][ 87]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_7.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.59:063][ 87]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_7.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.59:079][ 88]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.16.59:096][ 89]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.16.59:313][102]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.59:330][103]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.16.59:564][117]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.59:579][118]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.16.59:579][118]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_15.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.59:579][118]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_15.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.16.59:812][132]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.16.59:829][133]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.00:063][147]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.17.00:080][148]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.00:096][149]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.00:313][162]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.17.00:330][163]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.00:563][177]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.17.00:579][178]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.00:813][192]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.17.00:829][193]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.01:063][207]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_7
+[2020.09.30-03.17.01:079][208]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.01:096][209]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.01:132][211]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.01:329][223]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.01:579][238]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_15
+[2020.09.30-03.17.02:117][270]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.03:117][330]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.04:117][390]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.04:199][395]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.04:430][409]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.04:682][424]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.04:879][436]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.04:929][439]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.05:116][450]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.05:117][450]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_21.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_21.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_9
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_9.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_9.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_14.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_14.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_9
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.05:183][454]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:363][465]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:430][469]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.05:617][480]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:683][484]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.05:862][495]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.05:929][499]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.06:117][510]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.06:117][510]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.06:183][514]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.06:363][525]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.06:430][529]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.06:617][540]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.06:683][544]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.06:732][547]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue_1
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00AF
+[2020.09.30-03.17.06:732][547]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue_1"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.06:732][547]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00DE
+[2020.09.30-03.17.06:732][547]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.06:732][547]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_1
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00F3
+[2020.09.30-03.17.06:733][547]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.06:863][555]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.06:930][559]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.07:117][570]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.07:117][570]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_14
+[2020.09.30-03.17.07:183][574]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_21
+[2020.09.30-03.17.08:117][630]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.08:183][634]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.08:216][636]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.08:413][648]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.08:430][649]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.08:430][649]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.08:447][650]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.08:634][661]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.08:666][663]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.08:666][663]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.08:666][663]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.08:699][665]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.08:864][675]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.08:913][678]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.08:913][678]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.08:913][678]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.08:947][680]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.09:117][690]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.09:117][690]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.09:165][693]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.09:165][693]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_12.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:165][693]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_12.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:166][693]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.09:166][693]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.09:199][695]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.09:199][695]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_18.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:199][695]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_18.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:199][695]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.09:199][695]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_5.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:199][695]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_5.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:199][695]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.09:364][705]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.09:413][708]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.09:413][708]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.09:413][708]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.09:413][708]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_25.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:413][708]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_25.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:446][710]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.09:618][720]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.09:618][720]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_23.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:618][720]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_23.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.09:666][723]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.09:666][723]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.09:666][723]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.09:700][725]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.09:865][735]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.09:896][737]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01AF
+[2020.09.30-03.17.09:896][737]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.09:896][737]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01DE
+[2020.09.30-03.17.09:896][737]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.09:896][737]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01F3
+[2020.09.30-03.17.09:896][737]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.09:913][738]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.09:913][738]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.09:913][738]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.09:946][740]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.10:118][750]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.10:118][750]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.10:118][750]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2020.09.30-03.17.10:118][750]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-1830.000 Y=-840.000 Z=130.000] for [BP_STrackBot_C]
+[2020.09.30-03.17.10:150][752]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.10:166][753]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.10:166][753]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.10:167][753]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.10:199][755]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.10:366][765]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.10:413][768]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.10:413][768]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.10:413][768]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.10:446][770]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.10:618][780]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.10:667][783]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.10:668][783]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.10:668][783]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.10:700][785]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.10:866][795]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.10:913][798]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.10:913][798]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.10:913][798]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.10:946][800]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.11:014][804]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.11:118][810]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.11:134][811]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.11:167][813]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_12
+[2020.09.30-03.17.11:167][813]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.11:167][813]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_5
+[2020.09.30-03.17.11:201][815]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_18
+[2020.09.30-03.17.11:250][818]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.11:368][825]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.11:413][828]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_25
+[2020.09.30-03.17.11:496][833]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.11:619][840]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_23
+[2020.09.30-03.17.11:751][848]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.11:997][863]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.11:997][863]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_30.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.11:997][863]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_30.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.12:135][871]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.12:251][878]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.12:496][893]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.12:750][908]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.12:913][918]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.12:996][923]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.13:135][931]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.13:152][932]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.13:250][938]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.13:399][947]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.13:497][953]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.13:651][962]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.13:750][968]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.13:900][977]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.13:900][977]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_32.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.13:900][977]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_32.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.13:997][983]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_30
+[2020.09.30-03.17.14:133][991]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.14:147][992]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.14:397][  7]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.14:647][ 22]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.14:897][ 37]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.15:131][ 51]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.15:147][ 52]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.15:397][ 67]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.15:647][ 82]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.15:897][ 97]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_32
+[2020.09.30-03.17.16:131][111]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.17:130][171]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.18:130][231]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.19:129][291]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.19:264][299]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.19:496][313]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.19:546][316]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.19:750][328]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.19:782][330]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.19:899][337]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue_1
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00AF
+[2020.09.30-03.17.19:899][337]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue_1"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.19:899][337]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00DE
+[2020.09.30-03.17.19:899][337]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.19:899][337]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_3
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:00F3
+[2020.09.30-03.17.19:899][337]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.19:997][343]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.20:030][345]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.20:133][351]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.20:249][358]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.20:249][358]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_13.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:249][358]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_13.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:249][358]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_27
+[2020.09.30-03.17.20:249][358]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_27.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:249][358]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_27.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:249][358]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.20:283][360]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.20:467][371]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.20:498][373]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.20:530][375]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.20:530][375]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_35.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:530][375]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_35.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.20:546][376]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.20:700][385]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.20:749][388]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.20:782][390]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.20:782][390]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.20:949][400]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.20:998][403]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.21:031][405]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.21:031][405]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.21:133][411]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.21:167][413]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.21:199][415]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.21:249][418]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.21:283][420]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.21:283][420]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.21:449][430]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.21:449][430]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_16.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.21:449][430]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_16.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.21:496][433]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.21:530][435]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.21:530][435]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.21:530][435]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_37.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.21:530][435]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_37.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.21:699][445]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.21:748][448]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.21:783][450]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.21:783][450]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.21:949][460]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.21:999][463]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.22:031][465]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.22:031][465]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.22:150][472]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.22:199][475]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.22:248][478]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_13
+[2020.09.30-03.17.22:283][480]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.22:283][480]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.22:448][490]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.22:530][495]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_35
+[2020.09.30-03.17.22:530][495]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.22:699][505]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.22:783][510]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.22:949][520]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.23:030][525]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.23:045][526]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.23:149][532]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.23:166][533]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.23:200][535]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.23:282][540]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.23:397][547]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.23:447][550]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_16
+[2020.09.30-03.17.23:529][555]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_37
+[2020.09.30-03.17.23:650][562]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.23:900][577]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.23:900][577]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_40.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.23:900][577]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_40.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.23:900][577]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_39
+[2020.09.30-03.17.23:900][577]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_39.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.23:900][577]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_39.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.23:900][577]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.24:150][592]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.24:150][592]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.24:399][607]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.24:649][622]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.24:900][637]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.25:149][652]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.25:149][652]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.25:233][657]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.25:399][667]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.25:466][671]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.25:649][682]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.25:716][686]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.25:899][697]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_40
+[2020.09.30-03.17.25:966][701]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:149][712]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.26:217][716]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:217][716]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_43.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.26:217][716]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_43.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.26:217][716]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_44
+[2020.09.30-03.17.26:217][716]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_44.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.26:217][716]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_44.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.26:217][716]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:465][731]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:495][733]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.26:716][746]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:898][757]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.26:966][761]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.26:996][763]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:095][769]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:133][771]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:133][771]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_45.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.27:133][771]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_45.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.27:149][772]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.27:215][776]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.27:384][786]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:466][791]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.27:633][801]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:716][806]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.27:883][816]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.27:965][821]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.28:129][831]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_47
+[2020.09.30-03.17.28:135][831]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.28:150][832]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.28:217][836]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_43
+[2020.09.30-03.17.28:383][846]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.28:633][861]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.28:883][876]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.29:134][891]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_45
+[2020.09.30-03.17.29:150][892]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.29:429][909]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_41
+[2020.09.30-03.17.30:150][952]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.31:150][ 12]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.32:150][ 72]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.32:367][ 85]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.32:600][ 99]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.32:850][114]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.33:097][129]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.33:150][132]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.33:348][144]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.33:348][144]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_50.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.33:348][144]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_50.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.33:598][159]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.33:853][174]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.34:102][189]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.34:152][192]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.34:186][194]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.34:352][204]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.34:503][213]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.34:601][219]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.34:736][227]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.34:852][234]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.34:984][242]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.35:101][249]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.35:168][253]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.35:235][257]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.35:352][264]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_50
+[2020.09.30-03.17.35:485][272]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.35:486][272]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_48.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.35:486][272]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_48.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.35:736][287]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.35:986][302]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.36:169][313]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.36:169][313]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.36:236][317]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.36:402][327]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.36:486][332]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.36:654][342]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.36:735][347]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.36:902][357]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.36:986][362]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.37:153][372]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.37:153][372]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_19.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.37:153][372]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_19.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.37:153][372]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_55
+[2020.09.30-03.17.37:154][372]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_55.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.37:154][372]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_55.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.37:154][372]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.37:170][373]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.37:236][377]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.37:403][387]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.37:485][392]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_48
+[2020.09.30-03.17.37:652][402]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.37:901][417]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.38:151][432]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.38:168][433]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.38:402][447]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.38:652][462]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.38:901][477]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.39:152][492]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_19
+[2020.09.30-03.17.39:169][493]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.39:652][522]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_4
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01AF
+[2020.09.30-03.17.39:652][522]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.39:653][522]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_4
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01DE
+[2020.09.30-03.17.39:653][522]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.39:653][522]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_4
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01F3
+[2020.09.30-03.17.39:653][522]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.39:985][542]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.40:169][553]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.40:220][556]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.40:418][568]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.40:468][571]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.40:502][573]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.40:652][582]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.40:719][586]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.40:736][587]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.40:901][597]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.40:968][601]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.40:968][601]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_59.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.40:968][601]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_59.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.40:985][602]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.41:153][612]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.41:169][613]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.41:218][616]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.41:235][617]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.41:404][627]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.41:404][627]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_22.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:404][627]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_22.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:404][627]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_56
+[2020.09.30-03.17.41:404][627]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_56.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:404][627]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_56.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:405][627]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.41:469][631]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.41:486][632]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.41:486][632]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_60.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:486][632]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_60.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.41:652][642]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.41:719][646]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.41:736][647]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.41:901][657]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.41:969][661]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.41:985][662]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.42:152][672]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.42:169][673]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.42:219][676]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.42:236][677]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.42:313][682]LogTemp: Warning: CurrentHealth:80.000000,80.0
+[2020.09.30-03.17.42:402][687]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.42:472][691]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.42:486][692]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.42:653][702]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.42:720][706]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.42:737][707]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.42:902][717]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.42:969][721]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_59
+[2020.09.30-03.17.42:986][722]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.43:153][732]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.43:170][733]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.43:236][737]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.43:404][747]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_22
+[2020.09.30-03.17.43:486][752]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_60
+[2020.09.30-03.17.44:170][793]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.45:004][843]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_5
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01AF
+[2020.09.30-03.17.45:004][843]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.45:004][843]LogScript: Warning: “无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_5
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01DE
+[2020.09.30-03.17.45:004][843]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 CallFunc_GetComponentByClass_ReturnValue"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.45:004][843]LogScript: Warning: 已尝试指定到“无”
+	Powerup_SuperSpeed_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.Powerup_SuperSpeed_C_5
+	Function /Game/Powerup/Powerup_SuperSpeed.Powerup_SuperSpeed_C:ExecuteUbergraph_Powerup_SuperSpeed:01F3
+[2020.09.30-03.17.45:004][843]PIE: Error: 蓝图运行时错误："已尝试指定到“无”"。 蓝图： Powerup_SuperSpeed 函数： Execute Ubergraph Powerup Super Speed 图表： EventGraph 节点： 设置MaxWalkSpeed
+[2020.09.30-03.17.45:172][853]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.45:676][883]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.45:908][897]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.46:164][908]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.46:181][909]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.46:414][923]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.46:647][937]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.46:664][938]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.46:664][938]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_46.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.46:664][938]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_46.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.46:880][951]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.46:914][953]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.47:130][966]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.47:159][968]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_67
+[2020.09.30-03.17.47:163][968]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.47:179][969]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.47:379][981]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.47:412][983]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.47:629][996]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.47:629][996]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_66.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.47:629][996]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_66.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.47:663][998]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.47:879][ 11]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.47:912][ 13]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.48:129][ 26]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.48:161][ 28]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.48:178][ 29]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.48:379][ 41]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.48:411][ 43]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.48:578][ 53]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.48:628][ 56]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.48:662][ 58]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_46
+[2020.09.30-03.17.48:814][ 67]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.48:880][ 71]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.48:893][ 72]LogTemp: Warning: CurrentHealth:60.000000,60.0
+[2020.09.30-03.17.49:061][ 82]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.49:131][ 86]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.49:180][ 89]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.49:211][ 91]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.49:244][ 93]LogTemp: Health:80.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.49:293][ 96]LogTemp: Warning: CurrentHealth:40.000000,40.0
+[2020.09.30-03.17.49:311][ 97]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.49:378][101]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.49:393][102]LogTemp: Warning: CurrentHealth:20.000000,20.0
+[2020.09.30-03.17.49:478][107]LogTemp: Health:60.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.49:560][112]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.49:561][112]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_3.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.49:561][112]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_3.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.49:561][112]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_41
+[2020.09.30-03.17.49:561][112]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_41.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.49:561][112]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_41.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.49:561][112]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.49:631][116]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_66
+[2020.09.30-03.17.49:728][122]LogTemp: Health:40.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.49:812][127]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.49:977][137]LogTemp: Health:20.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.50:061][142]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.50:197][150]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.50:227][152]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.50:227][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_57.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:227][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_57.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:227][152]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_36
+[2020.09.30-03.17.50:227][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_36.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:227][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_36.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:227][152]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_54
+[2020.09.30-03.17.50:228][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_54.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:228][152]PIE: Warning: 无效模拟选项：形体（BP_STrackBot_C_54.MeshComponent TrackMeshSphere）被设置为模拟物理，但“启用碰撞”不兼容。
+[2020.09.30-03.17.50:228][152]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_36
+[2020.09.30-03.17.50:312][157]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.50:477][167]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.50:560][172]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.50:727][182]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.50:811][187]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.50:977][197]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.51:060][202]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_3
+[2020.09.30-03.17.51:194][210]LogBlueprintUserMessages: [BP_GameMode_C_0] Server: Hello
+[2020.09.30-03.17.51:227][212]LogTemp: Health:0.0,DamageActor:BP_STrackBot_C_57
+[2020.09.30-03.17.51:333][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.30-03.17.51:333][214]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_NewMap
+[2020.09.30-03.17.51:333][214]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.30-03.17.51:334][214]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.30-03.17.51:546][214]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.212 s
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: 
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: Ensure condition failed: State != InitializedState [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Engine/Private/DebugRenderSceneProxy.cpp] [Line: 41]
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: UnregisterDebugDrawDelegate is in an invalid State: 1 !
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: Stack: 
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4cdd6d97 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4bafccde UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff3cf352b6 UE4Editor-AIModule.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4b8cf36f UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4b90ebfe UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4b564022 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4bd95cdb UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4c776b50 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4c775e35 UE4Editor-Engine.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff497e3722 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff497a82fe UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff4926b4c5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fff49b400d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007ff735c67800 UE4Editor.exe!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007ff735c7ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007ff735c7bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007ff735c8e31d UE4Editor.exe!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007ff735c9145a UE4Editor.exe!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fffd3056fd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: [Callstack] 0x00007fffd359cec1 ntdll.dll!UnknownFunction []
+[2020.09.30-03.17.51:546][214]LogOutputDevice: Error: 

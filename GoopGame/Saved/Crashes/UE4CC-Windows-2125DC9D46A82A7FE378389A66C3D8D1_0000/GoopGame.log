@@ -1,0 +1,974 @@
+﻿Log file open, 09/25/20 22:14:28
+LogInit: Display: Running engine for game: GoopGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.554785
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderLink
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i7-10875H CPU @ 2.30GHz, GPU: Intel(R) UHD Graphics
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/component application/unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.09.25-14.14.29:161][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.09.25-14.14.29:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:162][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:163][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.25-14.14.29:164][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.25-14.14.29:164][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.25-14.14.29:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.09.25-14.14.29:164][  0]LogHAL: Display: Platform has ~ 32 GB [34186383360 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.09.25-14.14.29:164][  0]LogInit: Going up to parent DeviceProfile []
+[2020.09.25-14.14.29:164][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Scalability.ini]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.09.25-14.14.29:165][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.09.25-14.14.29:166][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.09.25-14.14.29:166][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.09.25-14.14.29:166][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.09.25-14.14.29:166][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Code/unreal/CoopGame/GoopGame/Saved/Config/Windows/Engine.ini]
+[2020.09.25-14.14.29:166][  0]LogInit: Computer: DESKTOP-G0SN44A
+[2020.09.25-14.14.29:166][  0]LogInit: User: piang
+[2020.09.25-14.14.29:166][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.09.25-14.14.29:166][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.09.25-14.14.29:166][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2020.09.25-14.14.29:166][  0]LogMemory: Platform Memory Stats for Windows
+[2020.09.25-14.14.29:166][  0]LogMemory: Process Physical Memory: 117.44 MB used, 117.44 MB peak
+[2020.09.25-14.14.29:166][  0]LogMemory: Process Virtual Memory: 100.15 MB used, 100.15 MB peak
+[2020.09.25-14.14.29:166][  0]LogMemory: Physical Memory: 13262.43 MB used,  19340.25 MB free, 32602.68 MB total
+[2020.09.25-14.14.29:166][  0]LogMemory: Virtual Memory: 5189.82 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2020.09.25-14.14.29:170][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.09.25-14.14.29:200][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.09.25-14.14.29:201][  0]LogInit: Using OS detected language (zh-CN).
+[2020.09.25-14.14.29:201][  0]LogInit: Using OS detected locale (zh-CN).
+[2020.09.25-14.14.29:202][  0]LogTextLocalizationManager: No specific localization for 'zh-CN' exists, so the 'zh-Hans' localization will be used.
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/zh/Editor.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/zh/EditorTutorials.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/zh/Keywords.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/zh/Category.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/zh/ToolTips.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/zh/PropertyNames.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/zh/Engine.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/zh/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/zh/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/zh/OnlineSubsystem.locres' could not be opened for reading!
+[2020.09.25-14.14.29:267][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/zh/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2020.09.25-14.14.29:312][  0]LogInit: Setting process to per monitor DPI aware
+[2020.09.25-14.14.29:339][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.09.25-14.14.29:340][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.09.25-14.14.29:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.25-14.14.29:434][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.09.25-14.14.29:434][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.09.25-14.14.29:434][  0]LogD3D11RHI: D3D11 adapters:
+[2020.09.25-14.14.29:520][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (Feature Level 11_0)
+[2020.09.25-14.14.29:520][  0]LogD3D11RHI:       8010/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.09.25-14.14.29:546][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2020.09.25-14.14.29:546][  0]LogD3D11RHI:       128/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.09.25-14.14.29:548][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.09.25-14.14.29:548][  0]LogD3D11RHI:       0/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.09.25-14.14.29:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.09.25-14.14.29:563][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.09.25-14.14.29:563][  0]LogD3D11RHI:     GPU DeviceId: 0x1ed3 (for the marketing name, search the web for "GPU Device Id")
+[2020.09.25-14.14.29:563][  0]LogWindows: EnumDisplayDevices:
+[2020.09.25-14.14.29:563][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2020.09.25-14.14.29:563][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.25-14.14.29:564][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2020.09.25-14.14.29:564][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.25-14.14.29:564][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.25-14.14.29:564][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.25-14.14.29:564][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2080 Super with Max-Q Design' (P:0 D:0)
+[2020.09.25-14.14.29:565][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.09.25-14.14.29:565][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Super with Max-Q Design
+[2020.09.25-14.14.29:565][  0]LogD3D11RHI:   Driver Version: 451.91 (internal:27.21.14.5191, unified:451.91)
+[2020.09.25-14.14.29:565][  0]LogD3D11RHI:      Driver Date: 8-2-2020
+[2020.09.25-14.14.29:565][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.09.25-14.14.29:617][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.09.25-14.14.29:619][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.09.25-14.14.29:619][  0]LogD3D11RHI: Async texture creation enabled
+[2020.09.25-14.14.29:619][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.09.25-14.14.29:636][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.09.25-14.14.29:881][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.09.25-14.14.29:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.09.25-14.14.29:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.09.25-14.14.29:915][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.09.25-14.14.29:923][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.09.25-14.14.29:930][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.09.25-14.14.29:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.09.25-14.14.29:944][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.09.25-14.14.29:951][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.09.25-14.14.29:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.09.25-14.14.29:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.09.25-14.14.29:984][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.09.25-14.14.29:984][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.09.25-14.14.29:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.09.25-14.14.29:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.09.25-14.14.30:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.09.25-14.14.30:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.09.25-14.14.30:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.09.25-14.14.30:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.09.25-14.14.30:024][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.09.25-14.14.30:032][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.09.25-14.14.30:081][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../../Code/unreal/CoopGame/GoopGame/Intermediate/Shaders/WorkingDirectory/24548/).
+[2020.09.25-14.14.30:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/piang/AppData/Local/Temp/UnrealShaderWorkingDir/8F75DF3044BE217BFCDF878E6CE9F8B2/'.
+[2020.09.25-14.14.30:081][  0]LogXGEController: Cleaning working directory: C:/Users/piang/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.09.25-14.14.30:082][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.09.25-14.14.30:082][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.09.25-14.14.30:082][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.09.25-14.14.30:669][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Code/unreal/CoopGame/GoopGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Code/unreal/CoopGame/GoopGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.25-14.14.30:706][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.09.25-14.14.30:714][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.09.25-14.14.30:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.09.25-14.14.30:714][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.09.25-14.14.30:716][  0]LogDerivedDataCache: Using Local data cache path C:/Users/piang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.09.25-14.14.30:716][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.09.25-14.14.30:716][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.09.25-14.14.30:755][  0]LogSlate: Using FreeType 2.10.0
+[2020.09.25-14.14.30:756][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.09.25-14.14.30:780][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2020.09.25-14.14.30:942][  0]LogInit: Selected Device Profile: [Windows]
+[2020.09.25-14.14.31:031][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.09.25-14.14.31:031][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.09.25-14.14.31:031][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.09.25-14.14.31:031][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.09.25-14.14.31:031][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.09.25-14.14.31:042][  0]LogNetVersion: GoopGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 720496033)
+[2020.09.25-14.14.31:340][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000219877839C0), frame # 0
+[2020.09.25-14.14.31:340][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002198778AAC0), frame # 0
+[2020.09.25-14.14.31:341][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000219877CDE00), frame # 0
+[2020.09.25-14.14.31:473][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 2 prioritized culture(s) in 0.127059 seconds
+[2020.09.25-14.14.31:476][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.09.25-14.14.31:476][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.09.25-14.14.31:476][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.09.25-14.14.31:754][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.09.25-14.14.31:758][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.09.25-14.14.31:928][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.139 s
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: 
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1132]
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: Unable to bind delegate to 'OnHealthChanged' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: Stack: 
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb5650e748 UE4Editor-GoopGame.dll!DispatchCheckVerify<bool,<lambda_d70e27282090ee96693572e4537dc7be> >() [D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb5650664e UE4Editor-GoopGame.dll!ASTong::ASTong() [D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\Private\STong.cpp:15]
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb7260c223 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb728b8461 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb72895bcf UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb727b43b5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb71a2987a UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffb71a49a00 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbc00ab433 UE4Editor-Projects.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbc00ab70d UE4Editor-Projects.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b9fa92 UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5ba26f5 UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b9b7ec UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b9bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5bae31d UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ff7f5bb145a UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbfd106fd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: [Callstack] 0x00007ffbfeb9cec1 ntdll.dll!UnknownFunction []
+[2020.09.25-14.14.31:928][  0]LogOutputDevice: Error: 
+[2020.09.25-14.14.31:937][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2020.09.25-14.14.32:376][  0]LogStats:                    SendNewReport -  0.440 s
+[2020.09.25-14.14.32:376][  0]LogStats:             FDebug::EnsureFailed -  0.589 s
+[2020.09.25-14.14.32:414][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.32:414][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.32:417][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.32:419][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.32:430][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.32:631][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.09.25-14.14.32:650][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.25-14.14.32:650][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.09.25-14.14.32:689][  0]LogOcInput: OculusInput pre-init called
+[2020.09.25-14.14.32:697][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.09.25-14.14.32:697][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.09.25-14.14.32:746][  0]LogEngine: Initializing Engine...
+[2020.09.25-14.14.32:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.09.25-14.14.32:747][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.09.25-14.14.32:748][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.09.25-14.14.32:834][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.09.25-14.14.32:840][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.09.25-14.14.32:840][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021991B97C00), frame # 0
+[2020.09.25-14.14.32:840][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021991BDA480), frame # 0
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.25-14.14.32:852][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.25-14.14.32:852][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.25-14.14.32:852][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.25-14.14.32:864][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.25-14.14.32:864][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.09.25-14.14.33:094][  0]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2020.09.25-14.14.33:097][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.25-14.14.33:098][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.25-14.14.33:098][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.25-14.14.33:099][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.25-14.14.33:100][  0]LogInit: FAudioDevice initialized.
+[2020.09.25-14.14.33:100][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.09.25-14.14.33:134][  0]LogDerivedDataCache: Saved boot cache 0.04s 75MB C:/Users/piang/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.09.25-14.14.33:134][  0]LogInit: Texture streaming: Enabled
+[2020.09.25-14.14.33:149][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.09.25-14.14.33:149][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={B87E02AA-4F06-9F64-F05D-AB90D241641C}
+[2020.09.25-14.14.33:149][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.09.25-14.14.33:150][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.09.25-14.14.33:199][  0]LogInit: Transaction tracking system initialized
+[2020.09.25-14.14.33:218][  0]BlueprintLog: New page: 编辑器加载
+[2020.09.25-14.14.33:276][  0]LocalizationService: 本地化服务已禁用
+[2020.09.25-14.14.33:383][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.09.25-14.14.33:383][  0]LogCook: Display: Mobile HDR setting 1
+[2020.09.25-14.14.33:490][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/' took 0.00s
+[2020.09.25-14.14.33:648][  0]SourceControl: 源码管理已禁用
+[2020.09.25-14.14.33:648][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.870
+[2020.09.25-14.14.33:648][  0]Cmd: MAP LOAD FILE="../../../../../../Code/unreal/CoopGame/GoopGame/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.09.25-14.14.33:648][  0]LightingResults: New page: 光照构建
+[2020.09.25-14.14.33:649][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.09.25-14.14.33:649][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.25-14.14.33:649][  0]MapCheck: New page: 地图检测
+[2020.09.25-14.14.33:649][  0]LightingResults: New page: 光照构建
+[2020.09.25-14.14.33:660][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021991B97C00), frame # 0
+[2020.09.25-14.14.33:660][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021991BDA480), frame # 0
+[2020.09.25-14.14.33:661][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.09.25-14.14.33:918][  0]LogAIModule: Creating AISystem for world NewMap
+[2020.09.25-14.14.33:918][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021996DEBE00), frame # 0
+[2020.09.25-14.14.33:918][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021996DF3880), frame # 0
+[2020.09.25-14.14.33:928][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.09.25-14.14.33:943][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.09.25-14.14.33:943][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.09.25-14.14.33:944][  0]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.262毫秒。
+[2020.09.25-14.14.33:944][  0]LogFileHelpers: Loading map 'NewMap' took 0.296
+[2020.09.25-14.14.33:946][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.169
+[2020.09.25-14.14.34:020][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2020.09.25-14.14.34:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.34:064][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.34:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.34:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.34:081][  0]LogCollectionManager: Loaded 0 collections in 0.000522 seconds
+[2020.09.25-14.14.34:092][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Saved/Collections/' took 0.00s
+[2020.09.25-14.14.34:092][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/Developers/piang/Collections/' took 0.00s
+[2020.09.25-14.14.34:092][  0]LogFileCache: Scanning file cache for directory 'D:/Code/unreal/CoopGame/GoopGame/Content/Collections/' took 0.00s
+[2020.09.25-14.14.34:092][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3433 classes and 825 folders.
+[2020.09.25-14.14.34:095][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.25-14.14.34:127][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.25-14.14.34:129][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.09.25-14.14.34:225][  0]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.09.25-14.14.34:228][  0]LogSlate: Took 0.001973 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.09.25-14.14.34:228][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.09.25-14.14.34:230][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.09.25-14.14.34:283][  0]LogRenderer: Reallocating scene render targets to support 1208x604 Format 10 NumSamples 1 (Frame:1).
+[2020.09.25-14.14.34:351][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.09.25-14.14.34:351][  0]LogLoad: (Engine Initialization) Total time: 6.57 seconds
+[2020.09.25-14.14.34:351][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.09.25-14.14.34:389][  0]LogAssetRegistry: Asset discovery search completed in 3.6104 seconds
+[2020.09.25-14.14.34:392][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.09.25-14.14.34:394][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.09.25-14.14.34:424][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.09.25-14.14.34:551][  3]LogActor: Warning: BP_Rifle_C /Engine/Transient.World_2:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.37:151][158]LogTemp: Repeating last play command: 选中的视口
+[2020.09.25-14.14.37:163][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.25-14.14.37:164][158]PIE: New page: PIE会话：NewMap（2020年9月26日 上午6:14:37）
+[2020.09.25-14.14.37:165][158]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.09.25-14.14.37:166][158]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.09.25-14.14.37:166][158]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2020.09.25-14.14.37:170][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003637s)
+[2020.09.25-14.14.37:171][158]LogAIModule: Creating AISystem for world NewMap
+[2020.09.25-14.14.37:171][158]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000219AFB24600), frame # 158
+[2020.09.25-14.14.37:171][158]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021997140680), frame # 158
+[2020.09.25-14.14.37:171][158]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2020.09.25-14.14.37:171][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.005084s)
+[2020.09.25-14.14.37:182][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.25-14.14.37:183][158]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.25-14.14.37:183][158]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.25-14.14.37:184][158]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.25-14.14.37:184][158]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.25-14.14.37:187][158]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.25-14.14.37:187][158]LogAudioMixer: Display: 1: FrontRight
+[2020.09.25-14.14.37:205][158]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2020.09.25-14.14.37:205][158]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.25-14.14.37:205][158]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.25-14.14.37:205][158]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.25-14.14.37:206][158]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.25-14.14.37:217][158]LogInit: FAudioDevice initialized.
+[2020.09.25-14.14.37:224][158]LogLoad: Game class is 'BP_GameMode_C'
+[2020.09.25-14.14.37:226][158]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2020.09.25-22.14.37
+[2020.09.25-14.14.37:227][158]LogWorld: Bringing up level for play took: 0.001911
+[2020.09.25-14.14.37:227][158]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.09.25-14.14.37:229][158]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.09.25-14.14.37:231][158]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.37:231][158]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.37:232][158]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.37:232][158]PIE: 登陆的服务器
+[2020.09.25-14.14.37:233][158]PIE: PIE总开始时间：0.07秒。
+[2020.09.25-14.14.38:339][224]LogTemp: Warning: CurrentHealth:80.000000,80.0
+[2020.09.25-14.14.38:423][229]LogTemp: Warning: CurrentHealth:60.000000,60.0
+[2020.09.25-14.14.38:523][235]LogTemp: Warning: CurrentHealth:40.000000,40.0
+[2020.09.25-14.14.38:623][241]LogTemp: Warning: CurrentHealth:20.000000,20.0
+[2020.09.25-14.14.38:723][247]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.38:823][253]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.38:922][259]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:022][265]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:123][271]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:224][277]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:323][283]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:423][289]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.39:923][319]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:006][324]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:106][330]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:206][336]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:306][342]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:407][348]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:506][354]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:606][360]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.40:706][366]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:156][393]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:240][398]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:340][404]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:439][410]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:539][416]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:640][422]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:739][428]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.41:840][434]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.42:806][492]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.42:889][497]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.42:990][503]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:089][509]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:189][515]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:289][521]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:390][527]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:489][533]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:590][539]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:689][545]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:790][551]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:889][557]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.43:990][563]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.44:089][569]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.44:644][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.44:644][600]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap
+[2020.09.25-14.14.44:644][600]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.25-14.14.44:645][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.25-14.14.44:649][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.25-14.14.44:652][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.25-14.14.44:662][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.14.44:678][600]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021997140680), frame # 600
+[2020.09.25-14.14.44:678][600]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000219AFB24600), frame # 600
+[2020.09.25-14.14.44:678][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.09.25-14.14.44:724][602]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.09.25-14.14.49:882][910]LogTemp: Repeating last play command: 选中的视口
+[2020.09.25-14.14.49:895][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.09.25-14.14.49:895][910]PIE: New page: PIE会话：NewMap（2020年9月26日 上午6:14:49）
+[2020.09.25-14.14.49:896][910]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2020.09.25-14.14.49:898][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002691s)
+[2020.09.25-14.14.49:899][910]LogAIModule: Creating AISystem for world NewMap
+[2020.09.25-14.14.49:899][910]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021A10E6FE00), frame # 910
+[2020.09.25-14.14.49:899][910]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000219970D8CC0), frame # 910
+[2020.09.25-14.14.49:899][910]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2020.09.25-14.14.49:899][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.003696s)
+[2020.09.25-14.14.49:909][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.09.25-14.14.49:910][910]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.09.25-14.14.49:911][910]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.09.25-14.14.49:911][910]LogAudio: Display: Using built-in audio occlusion.
+[2020.09.25-14.14.49:911][910]LogAudioMixer: Display: Initializing audio mixer.
+[2020.09.25-14.14.49:914][910]LogAudioMixer: Display: 0: FrontLeft
+[2020.09.25-14.14.49:914][910]LogAudioMixer: Display: 1: FrontRight
+[2020.09.25-14.14.49:931][910]LogAudioMixer: Display: Using Audio Device 耳机 (Realtek(R) Audio)
+[2020.09.25-14.14.49:931][910]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.09.25-14.14.49:931][910]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.09.25-14.14.49:931][910]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.09.25-14.14.49:932][910]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.09.25-14.14.49:943][910]LogInit: FAudioDevice initialized.
+[2020.09.25-14.14.49:953][910]LogLoad: Game class is 'BP_GameMode_C'
+[2020.09.25-14.14.49:955][910]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 60) at 2020.09.25-22.14.49
+[2020.09.25-14.14.49:956][910]LogWorld: Bringing up level for play took: 0.001809
+[2020.09.25-14.14.49:956][910]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.09.25-14.14.49:958][910]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.49:959][910]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.49:959][910]LogActor: Warning: BP_Rifle_C /Game/Maps/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Rifle_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.09.25-14.14.49:959][910]PIE: 登陆的服务器
+[2020.09.25-14.14.49:960][910]PIE: PIE总开始时间：0.067秒。
+[2020.09.25-14.14.51:359][994]LogTemp: Warning: CurrentHealth:80.000000,80.0
+[2020.09.25-14.14.51:442][999]LogTemp: Warning: CurrentHealth:60.000000,60.0
+[2020.09.25-14.14.51:542][  5]LogTemp: Warning: CurrentHealth:40.000000,40.0
+[2020.09.25-14.14.51:642][ 11]LogTemp: Warning: CurrentHealth:20.000000,20.0
+[2020.09.25-14.14.51:743][ 17]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.51:843][ 23]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.51:942][ 29]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:043][ 35]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:143][ 41]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:243][ 47]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:342][ 53]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:443][ 59]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:543][ 65]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:643][ 71]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:742][ 77]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:842][ 83]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.52:943][ 89]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:043][ 95]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:142][101]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:243][107]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:342][113]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:443][119]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:543][125]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:642][131]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:743][137]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:843][143]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.53:943][149]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.54:042][155]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.54:142][161]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.54:243][167]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.54:343][173]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.54:443][179]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.55:342][233]LogTemp: Warning: CurrentHealth:80.000000,80.0
+[2020.09.25-14.14.55:426][238]LogTemp: Warning: CurrentHealth:60.000000,60.0
+[2020.09.25-14.14.55:526][244]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.55:626][250]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.55:726][256]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.55:827][262]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.55:926][268]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.56:026][274]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.56:459][300]LogTemp: Warning: CurrentHealth:40.000000,40.0
+[2020.09.25-14.14.56:542][305]LogTemp: Warning: CurrentHealth:20.000000,20.0
+[2020.09.25-14.14.57:592][368]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.57:676][373]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:277][409]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:359][414]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:643][431]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:725][436]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:843][443]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.58:926][448]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.59:060][456]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.14.59:260][468]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:426][538]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:509][543]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:610][549]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:709][555]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:810][561]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.00:909][567]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.01:009][573]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.01:109][579]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.01:209][585]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.01:310][591]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:275][709]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:359][714]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:459][720]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:560][726]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:659][732]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:759][738]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:860][744]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.03:960][750]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.04:059][756]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.04:160][762]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.04:259][768]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.04:359][774]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.15.04:460][780]LogTemp: Warning: CurrentHealth:0.000000,0.0
+[2020.09.25-14.16.25:484][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.16.25:484][191]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_NewMap
+[2020.09.25-14.16.25:484][191]LogWorld: UWorld::CleanupWorld for NewMap, bSessionEnded=true, bCleanupResources=true
+[2020.09.25-14.16.25:484][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.25-14.16.25:489][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.09.25-14.16.25:490][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.09.25-14.16.25:515][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.09.25-14.16.25:516][191]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000219970D8CC0), frame # 2191
+[2020.09.25-14.16.25:516][191]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021A10E6FE00), frame # 2191
+[2020.09.25-14.16.25:517][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.09.25-14.16.25:552][193]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.09.25-14.16.26:738][264]Candidate modules for hot reload:
+[2020.09.25-14.16.26:738][264]  GoopGame
+[2020.09.25-14.16.26:738][264]Launching UnrealBuildTool... [D:/component application/unreal/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoopGame,1825 GoopGameEditor Win64 Development -Project="D:/Code/unreal/CoopGame/GoopGame/GoopGame.uproject" "D:/Code/unreal/CoopGame/GoopGame/GoopGame.uproject"  -IgnoreJunk]
+[2020.09.25-14.16.26:748][264]Warning: Starting HotReload took  0.0s.
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: New page: 编译——2020年9月26日 上午6:16:28
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Code\unreal\CoopGame).
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Building GoopGameEditor...
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Building 3 actions with 16 processes...
+[2020.09.25-14.16.28:066][284]CompilerResultsLog:   [1/3] UE4Editor-GoopGame-1825.lib
+[2020.09.25-14.16.28:066][284]CompilerResultsLog:     ???ڴ????? D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame-1825.lib ?Ͷ??? D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame-1825.exp
+[2020.09.25-14.16.28:066][284]CompilerResultsLog:   [2/3] UE4Editor-GoopGame-1825.dll
+[2020.09.25-14.16.28:066][284]CompilerResultsLog:     ???ڴ????? D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame-1825.suppressed.lib ?Ͷ??? D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\UE4Editor-GoopGame-1825.suppressed.exp
+[2020.09.25-14.16.28:066][284]CompilerResultsLog:   [3/3] GoopGameEditor.target
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Total time in Parallel executor: 0.71 seconds
+[2020.09.25-14.16.28:066][284]CompilerResultsLog: Total execution time: 1.17 seconds
+[2020.09.25-14.16.28:066][284]LogMainFrame: MainFrame: Module compiling took 1.331 seconds
+[2020.09.25-14.16.28:080][284]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.09.25-14.16.28:214][284]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.134 s
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: === Handled ensure: ===
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: 
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: Ensure condition failed: this->IsBound() [File:D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl] [Line: 1132]
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: Unable to bind delegate to 'OnHealthChanged' (function might not be marked as a UFUNCTION or object may be pending kill)
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: Stack: 
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb4e61e748 UE4Editor-GoopGame-1825.dll!DispatchCheckVerify<bool,<lambda_d70e27282090ee96693572e4537dc7be> >() [D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Core\Public\Misc\AssertionMacros.h:161]
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb4e61664e UE4Editor-GoopGame-1825.dll!ASTong::ASTong() [D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\Private\STong.cpp:15]
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb580844be UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb58073d4e UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb5807a995 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb58086b33 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb58086e01 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb5807f836 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb7252ecfd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb728b6849 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb72895bd6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb727b43b5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb71a2987a UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb71a49a00 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb71a48b18 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb5807b9b2 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb58079617 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb5807a1ad UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:214][284]LogOutputDevice: Error: [Callstack] 0x00007ffb5808c057 UE4Editor-HotReload.dll!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ffb717ad0a9 UE4Editor-Core.dll!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b8a213 UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b9ba7c UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ff7f5b9bb5a UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ff7f5bae31d UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ff7f5bb145a UE4Editor.exe!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ffbfd106fd4 KERNEL32.DLL!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: [Callstack] 0x00007ffbfeb9cec1 ntdll.dll!UnknownFunction []
+[2020.09.25-14.16.28:215][284]LogOutputDevice: Error: 

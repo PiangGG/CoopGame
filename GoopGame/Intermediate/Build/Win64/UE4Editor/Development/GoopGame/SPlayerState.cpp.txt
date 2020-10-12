@@ -1,0 +1,5 @@
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Development\GoopGame\Definitions.GoopGame.h
+D:\Code\unreal\CoopGame\GoopGame\Source\GoopGame\Public\SPlayerState.h
+D:\component application\unreal\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
+D:\component application\unreal\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
+D:\Code\unreal\CoopGame\GoopGame\Intermediate\Build\Win64\UE4Editor\Inc\GoopGame\SPlayerState.generated.h
